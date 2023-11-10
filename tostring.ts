@@ -103,3 +103,6 @@ export const isTypeError = (v: unknown): v is TypeError =>
 
 export const isURIError = (v: unknown): v is URIError =>
   detectType(v) === "URIError";
+
+export const isObjectLike = (v: unknown): v is Object =>
+  v !== null && typeof v === "object";
