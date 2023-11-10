@@ -1,0 +1,9 @@
+{
+  "name": "@sasaplus1/type-check",
+  "description": "type check library",
+  "version": "0.1.0",
+  "author": "sasa+1 <sasaplus1@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "./README.md",
+  "sideEffects": false
+}
